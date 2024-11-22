@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    border: 0;
+    border-collapse: collapse;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    row-gap: 10px;
+    border: 0px solid black;
+    padding: 20px;
+}
+
+.grid-item {
+  background-color: rgb(189, 185, 180);
+  text-align: center;
+  border: 0px solid black;
+  padding: 20px;
+ 
+ 
+} 
+
+img {
+    width: 160px;
+   
+}
+
+.grid-container2 {
+    background-color: rgb(189, 185, 180);
+   text-align: center;
+   border: 0px solid black;
+   padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+p {
+    color: rgb(18, 18, 121);
+}
